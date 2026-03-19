@@ -1,7 +1,7 @@
 
 ---
 
-## 🚀 Quick Start (Copy & Paste)
+## 🚀 Quick Start 
 
 ```bash
 # 1. Create a ROS2 workspace
