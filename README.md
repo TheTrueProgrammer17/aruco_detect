@@ -24,3 +24,12 @@ source install/setup.bash
 
 # 6. Run the node
 ros2 run gstream_node gstream_node
+
+aruco_detect/
+ └── gstream_node/                ← package root
+      ├── package.xml             ← ROS package manifest
+      ├── setup.py                ← Python build/install config
+      ├── setup.cfg               ← colcon/ament config
+      └── gstream_node/           ← Python module
+           ├── __init__.py
+           └── gstream_process.py ← your ROS-integrated node
